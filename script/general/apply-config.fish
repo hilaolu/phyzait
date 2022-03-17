@@ -3,8 +3,8 @@ pushd .
 
 #git clone https://code.phyzait.moe/hilaolu/configs.git --recursive
 
-if not test -d config
-    echo "config doesn't exist, abort"
+if not test -d conf
+    echo "conf doesn't exist, abort"
     exit 1
 end
 
