@@ -1,0 +1,568 @@
+{
+    "workbench.colorTheme": "Atom One Light",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Monaco','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback','MesloLGS NF'",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "vs-minimal",
+    "debug.console.fontSize": 18,
+    "markdown.preview.fontSize": 21,
+    "terminal.integrated.fontSize": 13,
+    // "editor.folding": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.enabled": false,
+    // "editor.occurrencesHighlight": false,
+    "editor.roundedSelection": false,
+    "editor.scrollBeyondLastLine": false,
+    "explorer.decorations.colors": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showIcons": false,
+    "workbench.tree.renderIndentGuides": "none",
+    // "editor.cursorBlinking": "solid",
+    "timeline.excludeSources": [
+        "git-history"
+    ],
+    "workbench.editor.pinnedTabSizing": "compact",
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "vscode-remote": "linux",
+        "vscode-remote0": "linux",
+        "vscode-remote-gz": "linux",
+        "vscode-remote-ny": "linux",
+        "colab": "linux",
+        "qing": "linux",
+        "remote-ny": "linux",
+        "remote-colab": "linux",
+        "remote-gz": "linux",
+        "public_cluster": "linux",
+        "loongson": "linux",
+        "157.230.244.85": "linux"
+    },
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.defaultLocation": "editor",
+    "window.restoreWindows": "none",
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-'>": false,
+        "<C-.>": false,
+        ".": false,
+    },
+    // "vim.debug.loggingLevelForAlert": "debug", 
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<left>"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<up>"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<down>"
+            ]
+        },
+        {
+            "before": [
+                "<C-;>"
+            ],
+            "after": [
+                "<right>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y",
+                "g",
+                "v",
+                "<esc>"
+            ]
+        },
+        {
+            "before": [
+                "h"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "<C-right>"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "8",
+                "<up>"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "8",
+                "<down>"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "<up>"
+            ]
+        },
+        {
+            "before": [
+                "l"
+            ],
+            "after": [
+                "<down>"
+            ]
+        },
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                "<right>"
+            ]
+        },
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "<left>"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                ":"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "z"
+            ],
+            "after": [
+                "e"
+            ]
+        },
+        {
+            "before": [
+                "Z"
+            ],
+            "after": [
+                "E"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<A-;>"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<A-j>"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "."
+            ],
+            "after": [
+                ""
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo",
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "commands": [
+                "redo",
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "m"
+            ],
+            "after": [
+                "4",
+                "<C-e>"
+            ]
+        },
+        {
+            "before": [
+                "<C-m>"
+            ],
+            "after": [
+                "4",
+                "<C-y>"
+            ]
+        },
+        {
+            "before": [
+                "f"
+            ],
+            "commands": [
+                "editor.toggleFold"
+            ]
+        },
+        {
+            "before": [
+                "<C-a>"
+            ],
+            "after": [
+                "g",
+                "g",
+                "V",
+                "G"
+            ]
+        },
+        {
+            "before": [
+                ":"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "<up>"
+            ]
+        },
+        {
+            "before": [
+                "l"
+            ],
+            "after": [
+                "<down>"
+            ]
+        },
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                "<right>"
+            ]
+        },
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "<left>"
+            ]
+        },
+        {
+            "before": [
+                "z"
+            ],
+            "after": [
+                "e"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "8",
+                "<up>"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "8",
+                "<down>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<C-right>"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "h"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "q"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "e"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<tab>"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<shift+tab>"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
+    "vim.commandLineModeKeyBindings": [],
+    "vim.insertModeKeyBindingsNonRecursive": [],
+    "vim.useSystemClipboard": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.cursorBlinking": "solid",
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "settingsSync.ignoredExtensions": [
+        "emroussel.atomize-atom-one-dark-theme",
+        "ms-vscode-remote.remote-containers",
+        "ms-toolsai.jupyter-keymap"
+    ],
+    "vim.foldfix": true,
+    "editor.detectIndentation": false,
+    "remote.SSH.defaultExtensions": [
+        "scalameta.metals",
+        "matklad.rust-analyzer",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter-renderers",
+        // "mkhl.direnv"
+    ],
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "notebook.output.textLineLimit": 10,
+    "window.enableMenuBarMnemonics": false,
+    "window.customMenuBarAltFocus": false,
+    "jupyter.askForKernelRestart": false,
+    // "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, PointerAlignment: Right}",
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "window.zoomLevel": 5,
+    "python.terminal.activateEnvironment": false,
+    "notebook.lineNumbers": "on",
+    "git.ignoreLegacyWarning": true,
+    "extensions.autoUpdate": false,
+    //Latexworkshop
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-output-directory=%OUTDIR%",
+                "--shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "-output-directory=%OUTDIR%",
+                "%OUTDIR%/%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ],
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdf->bib->pdf->pdf",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.latex.outDir": "%DIR%/build",
+}
