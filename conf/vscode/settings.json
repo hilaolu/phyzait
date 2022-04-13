@@ -15,7 +15,6 @@
     "editor.scrollBeyondLastLine": false,
     "explorer.decorations.colors": false,
     "explorer.openEditors.visible": 0,
-    "workbench.activityBar.visible": false,
     "workbench.editor.showIcons": false,
     "workbench.tree.renderIndentGuides": "none",
     // "editor.cursorBlinking": "solid",
@@ -36,7 +35,8 @@
         "remote-gz": "linux",
         "public_cluster": "linux",
         "loongson": "linux",
-        "157.230.244.85": "linux"
+        "157.230.244.85": "linux",
+        "81.71.25.5": "linux"
     },
     "window.titleBarStyle": "custom",
     "terminal.integrated.defaultLocation": "editor",
@@ -282,19 +282,19 @@
         },
         {
             "before": [
-                "m"
+                "."
             ],
             "after": [
-                "4",
+                "8",
                 "<C-e>"
             ]
         },
         {
             "before": [
-                "<C-m>"
+                ","
             ],
             "after": [
-                "4",
+                "8",
                 "<C-y>"
             ]
         },
@@ -465,7 +465,7 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-toolsai.jupyter-renderers",
-        // "mkhl.direnv"
+        "mkhl.direnv"
     ],
     "update.showReleaseNotes": false,
     "update.mode": "none",
@@ -484,11 +484,9 @@
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeElse": false,
-    "window.zoomLevel": 5,
     "python.terminal.activateEnvironment": false,
     "notebook.lineNumbers": "on",
     "git.ignoreLegacyWarning": true,
-    "extensions.autoUpdate": false,
     //Latexworkshop
     "latex-workshop.latex.tools": [
         {
@@ -565,4 +563,10 @@
     ],
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.latex.outDir": "%DIR%/build",
+    "files.associations": {
+        "*.nix": "nix"
+    },
+    "window.zoomLevel": 5,
+    "workbench.activityBar.visible": false,
+    "verilog.linting.linter": "verilator",
 }

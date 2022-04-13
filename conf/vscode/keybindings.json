@@ -1271,5 +1271,13 @@
         "key": "ctrl+l ctrl+u",
         "command": "-latex-workshop.shortcut.underline",
         "when": "editorTextFocus && !editorReadonly && editorLangId =~ /latex|latex-expl3|rsweave|jlweave/"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.togglePanel"
     }
 ]
