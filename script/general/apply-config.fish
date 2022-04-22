@@ -12,6 +12,10 @@ set DIR (dirname (status --current-filename))
 fish $DIR/fish.fish
 fish $DIR/neovim.fish
 fish $DIR/tmux.fish
+fish $DIR/vscode.fish
+
+
+
 
 
 popd
