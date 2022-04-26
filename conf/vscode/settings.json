@@ -36,7 +36,8 @@
         "public_cluster": "linux",
         "loongson": "linux",
         "157.230.244.85": "linux",
-        "81.71.25.5": "linux"
+        "81.71.25.5": "linux",
+        "hilaolu-arch": "linux"
     },
     "window.titleBarStyle": "custom",
     "terminal.integrated.defaultLocation": "editor",
@@ -566,7 +567,7 @@
     "files.associations": {
         "*.nix": "nix"
     },
-    "window.zoomLevel": 5,
     "workbench.activityBar.visible": false,
     "verilog.linting.linter": "verilator",
+    "window.zoomLevel": -2,
 }
