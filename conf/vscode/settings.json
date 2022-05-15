@@ -569,5 +569,11 @@
     },
     "workbench.activityBar.visible": false,
     "verilog.linting.linter": "verilator",
-    "window.zoomLevel": -2,
+    "window.zoomLevel": 1,
+    "Lua.telemetry.enable": false,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "impulse.port": "11450",
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "latex-workshop.viewer.pdf.internal.keyboardEvent": "never",
 }
