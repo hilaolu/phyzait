@@ -1,22 +1,22 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
+        "key": "ctrl+.",
+        "command": "scrollPageDown",
+        "when": "editorTextFocus && !notebookEditorFocused",
+    },
+    {
+        "key": "ctrl+,",
+        "command": "scrollPageUp",
+        "when": "editorTextFocus && !notebookEditorFocused"
+    },
+    {
         "key": "`",
         "command": "editor.action.insertSnippet",
         "args": {
             "snippet": "`"
         },
         "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+,",
-        "command": "workbench.action.navigateBack",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
-    },
-    {
-        "key": "ctrl+.",
-        "command": "workbench.action.navigateForward",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+l",
@@ -70,13 +70,8 @@
     },
     {
         "key": "'",
-        "command": "cursorPageDown",
-        "when": "vim.mode != 'Insert'",
-    },
-    {
-        "key": "ctrl+'",
-        "command": "cursorPageUp",
-        "when": "vim.mode != 'Insert'",
+        "command": "workbench.action.navigateBack",
+        "when": "vim.mode != 'Insert'&& editorTextFocus",
     },
     {
         "key": "alt+q",
@@ -88,8 +83,8 @@
     },
     {
         "key": "ctrl+'",
-        "command": "cursorPageUp",
-        "when": "vim.mode != 'Insert'",
+        "command": "workbench.action.navigateForward",
+        "when": "vim.mode != 'Insert' && editorTextFocus",
     },
     {
         "key": "ctrl+f",
@@ -1403,5 +1398,10 @@
         "key": "alt+delete",
         "command": "-notebook.cell.clearOutputs",
         "when": "notebookCellEditable && notebookCellHasOutputs && notebookEditable && notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
     }
 ]

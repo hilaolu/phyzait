@@ -37,7 +37,10 @@
         "loongson": "linux",
         "157.230.244.85": "linux",
         "81.71.25.5": "linux",
-        "hilaolu-arch": "linux"
+        "hilaolu-arch": "linux",
+        "106.53.110.155": "linux",
+        "43.133.191.252": "linux",
+        "gpushare": "linux"
     },
     "window.titleBarStyle": "custom",
     "terminal.integrated.defaultLocation": "editor",
@@ -47,9 +50,9 @@
         "<C-f>": false,
         "<C-w>": false,
         "<C-b>": false,
-        "<C-'>": false,
-        "<C-.>": false,
-        ".": false,
+        // "<C-'>": false,
+        // "<C-.>": false,
+        // ".": false,
     },
     // "vim.debug.loggingLevelForAlert": "debug", 
     "vim.insertModeKeyBindings": [
@@ -476,7 +479,6 @@
     "notebook.output.textLineLimit": 10,
     "window.enableMenuBarMnemonics": false,
     "window.customMenuBarAltFocus": false,
-    "jupyter.askForKernelRestart": false,
     // "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, PointerAlignment: Right}",
     "C_Cpp.formatting": "vcFormat",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
@@ -576,4 +578,5 @@
     "impulse.port": "11450",
     "C_Cpp.intelliSenseEngine": "Disabled",
     "latex-workshop.viewer.pdf.internal.keyboardEvent": "never",
+    "jupyter.generateSVGPlots": true,
 }
