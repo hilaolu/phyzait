@@ -40,7 +40,8 @@
         "hilaolu-arch": "linux",
         "106.53.110.155": "linux",
         "43.133.191.252": "linux",
-        "gpushare": "linux"
+        "gpushare": "linux",
+        "43.133.11.147": "linux"
     },
     "window.titleBarStyle": "custom",
     "terminal.integrated.defaultLocation": "editor",
