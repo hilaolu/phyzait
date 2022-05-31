@@ -1401,10 +1401,6 @@
     },
     {
         "key": "ctrl+q",
-        "command": "workbench.action.focusPreviousGroup"
-    },
-    {
-        "key": "ctrl+q",
         "command": "-workbench.action.quit"
     },
     {
@@ -1418,12 +1414,17 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "ctrl+e",
-        "command": "workbench.action.focusNextGroup"
+        "key": "shift+q",
+        "command": "workbench.action.focusPreviousGroup",
+        "when": "vim.mode == 'Normal'"
     },
     {
-        "key": "ctrl+b",
-        "command": "workbench.files.action.focusFilesExplorer",
-        "when": "!filesExplorerFocus"
+        "key": "shift+e",
+        "command": "workbench.action.focusNextGroup",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.files.action.focusFilesExplorer"
     }
 ]
