@@ -43,7 +43,6 @@
         "gpushare": "linux",
         "43.133.11.147": "linux"
     },
-    "window.titleBarStyle": "custom",
     "terminal.integrated.defaultLocation": "editor",
     "window.restoreWindows": "none",
     "terminal.integrated.fontFamily": "'MesloLGS NF'",
@@ -572,7 +571,6 @@
     },
     "workbench.activityBar.visible": false,
     "verilog.linting.linter": "verilator",
-    "window.zoomLevel": 1,
     "Lua.telemetry.enable": false,
     "extensions.autoUpdate": false,
     "extensions.autoCheckUpdates": false,
@@ -580,4 +578,6 @@
     "C_Cpp.intelliSenseEngine": "Disabled",
     "latex-workshop.viewer.pdf.internal.keyboardEvent": "never",
     "jupyter.generateSVGPlots": true,
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
 }
