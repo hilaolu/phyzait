@@ -8,7 +8,7 @@ set $down l
 set $up k
 set $right semicolon 
 
-#seat seat0 xcursor_theme Adwaita 40 
+seat seat0 xcursor_theme Adwaita 20
 
 set $lock 'bash -c "if pgrep -x swaylock; then :; else swaylock -c 101010; fi"'
 
