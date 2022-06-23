@@ -1,4 +1,6 @@
 xwayland disable
+
+mouse_warping none
 font pango: SourceCodePro Medium 12
 set $mod Mod1
 bindsym $mod+tab exec bash ~/.config/sway/script/alttab.sh 

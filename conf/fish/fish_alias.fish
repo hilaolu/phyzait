@@ -33,3 +33,5 @@ alias py="python3"
 alias py2="python2"
 alias py3="python3"
 
+alias zath="zathura --fork"
+
