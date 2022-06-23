@@ -1,0 +1,7 @@
+map j scroll left
+map ; scroll right
+map k scroll up
+map <C-k> scroll full-up
+map l scroll down
+map <C-l> scroll full-down
+set guioptions none

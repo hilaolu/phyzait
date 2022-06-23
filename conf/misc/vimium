@@ -1,0 +1,34 @@
+# Insert your preferred key mappings here.
+
+
+unmap W
+#map j scrollLeft
+#map ; scrollRight
+#map k scrollUp
+#map l scrollDown
+
+mapkey j h
+mapkey k k
+mapkey l j
+mapkey ; l
+
+mapkey : L
+mapkey J H
+
+
+
+mapkey <c-c> esc
+
+map e nextTab
+map q previousTab
+map <c-k> scrollPageUp
+map <c-l> scrollPageDown
+
+map u LinkHints.activateMode
+map <c-u> LinkHints.activateModeToOpenInNewTab
+
+#map i enterInsertMode
+
+mapkey <c-c> <c-[>
+
+unmap x
