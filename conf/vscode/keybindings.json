@@ -1416,12 +1416,12 @@
     {
         "key": "shift+q",
         "command": "workbench.action.focusPreviousGroup",
-        "when": "vim.mode == 'Normal'"
+        "when": "vim.mode == 'Normal' && !inputFocus"
     },
     {
         "key": "shift+e",
         "command": "workbench.action.focusNextGroup",
-        "when": "vim.mode == 'Normal'"
+        "when": "vim.mode == 'Normal' && !inputFocus"
     },
     {
         "key": "ctrl+e",
