@@ -34,14 +34,14 @@
         "when": "vim.mode == 'Insert' && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "q",
+        "key": "[",
         "command": "workbench.action.previousEditor",
-        "when": "notebookCellListFocused && notebookEditable && !inputFocus"
+        "when": "vim.mode == 'Normal'"
     },
     {
-        "key": "e",
+        "key": "]",
         "command": "workbench.action.nextEditor",
-        "when": "notebookCellListFocused && notebookEditable && !inputFocus"
+        "when": "vim.mode == 'Normal'"
     },
     {
         "key": "i",
@@ -1414,14 +1414,14 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "shift+q",
+        "key": "ctrl+[",
         "command": "workbench.action.focusPreviousGroup",
-        "when": "vim.mode == 'Normal' && !inputFocus"
+        "when": "vim.mode == 'Normal'"
     },
     {
-        "key": "shift+e",
+        "key": "ctrl+]",
         "command": "workbench.action.focusNextGroup",
-        "when": "vim.mode == 'Normal' && !inputFocus"
+        "when": "vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+e",
