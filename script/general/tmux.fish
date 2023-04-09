@@ -1,9 +1,10 @@
 pushd .
 
-set DIR (dirname (status --current-filename))
+set DIR (cd (dirname (status -f)); and pwd) 
+# set DIR (dirname (status --current-filename))
 source $DIR/include.fish
 
-cd conf
+cd $DIR/../../conf
 
 set configs_dir (pwd)
 set home_dir $HOME 
