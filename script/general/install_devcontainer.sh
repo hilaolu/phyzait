@@ -1,4 +1,3 @@
-sudo apt update && sudo apt install fish -y
-# fish -c "curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher"
-# fish script/general/apply-config.sh
-fish $(pwd)/apply-config.sh
+curl https://github.com/microsoft/vscode-dev-containers/raw/main/script-library/fish-debian.sh -L | sudo bash
+fish $(dirname "$0")/apply-config.fish
+# fish $(dirname "$0")/fisher.fish
