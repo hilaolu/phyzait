@@ -9,7 +9,7 @@ alias hir="himalaya read"
 alias hire="himalaya reply"
 alias hif="himalaya forward"
 
-alias vi="nvim"
+# alias vi="nvim"
 
 alias sr="sudo systemctl restart"
 alias ss="sudo systemctl start"
