@@ -35,3 +35,7 @@ alias py3="python3"
 
 alias zath="zathura --fork"
 
+alias tcp='tmux capture-pane -ept'
+alias cols='tput cols'
+alias rows='tput lines'
+alias paneid='echo $TMUX_PANE'
